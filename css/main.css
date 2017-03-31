@@ -1,0 +1,60 @@
+.Day
+{
+	height: 100px;
+	width: 100px;
+	float: left;
+	position: relative;
+	margin: 0px 10px;
+}
+
+.Month
+{
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin: 0px;
+	position: relative;
+	margin: 0px 10px;
+}
+
+.Year
+{
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin: 0px;
+	position: relative;
+	margin: 0px 10px;
+}
+
+#DropOffMain
+{
+	width: 500px;
+	height: 150px;
+	/*border: 2px solid red;*/
+	margin: 50px 0px;
+}
+
+#PickUpMain
+{
+	width: 500px;
+	height: 150px;
+	/*border: 2px solid red;*/
+	margin: 50px 0px;
+}
+
+#buttoncalculate
+{
+	width: 100px;
+	height: 100px;
+}
+
+div
+{
+	/*border: 1px solid red;*/
+}
+
+select
+{
+	width: 100px;
+}

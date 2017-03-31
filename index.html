@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Dropdown</title>
+	<link href="css/main.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="DropOffMain">
+	<p>Pick the date you are dropping off the car</p>
+
+	<div class="Day">
+		<h3>Day</h3>
+		<select id="DayDropOffDropdown"></select>
+	</div>
+
+	<div class="Month">
+		<h3>Month</h3>
+		<select id="MonthDropOffDropdown"></select>
+	</div>
+	
+	<div class="Year">
+		<h3>Year</h3>
+		<select id="YearDropOffDropdown"></select>
+	</div>
+</div>
+
+<div id="PickUpMain">
+	<p>Pick the date you will be picking the car up</p>
+
+	<div class="Day">
+		<h3>Day</h3>
+		<select id="DayPickUpDropdown"></select>
+	</div>
+
+	<div class="Month">
+		<h3>Month</h3>
+		<select id="MonthPickUpDropdown"></select>
+	</div>
+	
+	<div class="Year">
+		<h3>Year</h3>
+		<select id="YearPickUpDropdown"></select>
+	</div>
+</div>
+
+<div id="buttoncalculate">
+	<input type="button" value="This Button" size="20" onclick="CalculatePrice();" />
+</div>
+
+<div>
+	<h2 id="totalprice">Total Price: </h2>
+</div>
+
+<script src="scripts/main.js"></script>
+
+</body>
+
+</html>
